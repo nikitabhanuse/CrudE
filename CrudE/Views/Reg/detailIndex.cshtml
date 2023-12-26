@@ -1,0 +1,21 @@
+﻿@{ 
+    ViewBag.Title = "detailIndex";
+}
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Content/Detail.js"></script>
+<input type="hidden" value="@ViewBag.Id" id="hdnId" />
+<h2>Details</h2>
+<div>
+    <table id="tblRegg" border="1" class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Photo</th>
+                <th>Address</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
